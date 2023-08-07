@@ -28,6 +28,11 @@ const frutas = [
 
 ]
 
+//mostra o nome de cada fruta
+frutas.forEach((fruit) =>{
+    console.log(fruit.nome)
+})
+
 //conta a quantidade do tipo - fruta
 frutas.forEach((fruit) =>{
     console.log(fruit.tipo)
